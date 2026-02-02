@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=League+Spartan:wght@100..900&display=swap');
+@import "tailwindcss";
+
+.caladea-regular {
+  font-family: "Caladea", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caladea-bold {
+  font-family: "Caladea", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.caladea-regular-italic {
+  font-family: "Caladea", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.caladea-bold-italic {
+  font-family: "Caladea", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+.league-spartan {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.league-spartan-default {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.league-spartan-medium {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+html,
+body {
+  background-color: var(--color-primary);
+}
+
+li {
+  cursor: pointer;
+	transition: all 0.5s;
+}
+
+@layer base {
+	* {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+/*Register colors variable*/
+:root {
+  --color-primary: #1E1E1E;
+  --color-secondary: rgb(60, 51, 51, 0.3);
+  --color-accent: #FFCB7C;
+  --color-font: #F5F5F5;
+  --color-border: rgba(242, 241, 235, 0.6);
+
+  --radius-outerradius: 28px;
+  --radius-innerradius: 20px
+}
+
+@theme {
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-accent: var(--color-accent);
+  --color-font: var(--color-font);
+  --color-border: var(--color-border);
+
+  --radius-outerradius: var(--radius-outerradius);
+  --radius-innerradius: var(--radius-innerradius);
+}
