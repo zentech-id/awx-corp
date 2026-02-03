@@ -14,7 +14,7 @@ function App() {
       "/>
       <Router basename='/awx-corp'>
         <Routes>
-          <Route path="*" element={<Home />} />
+          <Route path="/*" element={<Home />} />
           <Route path="/products" element={<Products path="dpib-miniatur"/>} />
           <Route path="/products/:productid" element={<Products />} />
           <Route path="/contact" element={<Contact />} />
