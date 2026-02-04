@@ -5,11 +5,9 @@ import ProductCard from "./productCard";
 import zentech from "../assets/ZenTech.png"
 
 
-export default function Products({ path }) {
-  const productIdParam = useParams();
-  const productid = productIdParam.productid === undefined || productIdParam.productid === null ? path : productIdParam.productid;
-
-  const productTitle = `${productid.split("-")[0].toUpperCase()} — ${productid.split("-")[1].charAt(0).toUpperCase() + productid.split("-")[1].slice(1)}`
+export default function Products() {
+  const productId = "dpib-miniatur"
+  const productTitle = `${productId.split("-")[0].toUpperCase()} — ${productId.split("-")[1].charAt(0).toUpperCase() + productId.split("-")[1].slice(1)}`
   return (
     <>
       <Navbar active="products" />

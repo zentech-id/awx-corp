@@ -23,7 +23,7 @@ export default function Navbar({ active }) {
             <li className={active === "home" ? "text-accent underline underline-accent underline-offset-8" : "underline-transparent"} onClick={() => navigate("/")}>
               Beranda
             </li>
-            <li className={active === "products" ? "text-accent underline underline-accent underline-offset-8" : "underline-transparent"} onClick={() => navigate("/products/dpib-miniatur")}>
+            <li className={active === "products" ? "text-accent underline underline-accent underline-offset-8" : "underline-transparent"} onClick={() => navigate("/products")}>
               Produk
             </li>
             <li className={active === "contact" ? "text-accent underline underline-accent underline-offset-8" : "underline-transparent"} onClick={() => navigate("/contact")}>

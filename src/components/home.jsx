@@ -24,7 +24,7 @@ export default function Home() {
         ">
           AWX Corporation merupakan perusahaan yang bergerak di bidang jasa dan beberapa produk unggulan lain. AWX Corporation menyediakan jasa installasi dan perawatan listrik rumah tangga, jaringan rumah tangga, serta beberapa desain miniatur dan infastruktur lainnya.
         </p>
-        <button onClick={() => navigate("/products/dpib-miniatur")} 
+        <button onClick={() => navigate("/products")} 
         className="
           w-[180px] h-[44px] grid place-items-center bg-accent text-primary text-[16px] league-spartan-medium font-bold rounded-full cursor-pointer
           lg:text-[20px] lg:w-[200px] lg:h-[48px]
