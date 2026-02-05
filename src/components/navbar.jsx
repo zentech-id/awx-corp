@@ -20,13 +20,13 @@ export default function Navbar({ active }) {
             flex text-font caladea-bold text-[20px] gap-x-[40px] select-none
             md:text-[28px] md:gap-x-[40px]
           ">
-            <li className={active === "home" ? "text-accent underline underline-accent underline-offset-8" : "underline-transparent"} onClick={() => navigate("/")}>
+            <li className={active === "home" ? "text-accent underline underline-accent underline-offset-8 cursor-pointer" : "underline-transparent cursor-pointer"} onClick={() => navigate("/")}>
               Beranda
             </li>
-            <li className={active === "products" ? "text-accent underline underline-accent underline-offset-8" : "underline-transparent"} onClick={() => navigate("/products")}>
+            <li className={active === "products" ? "text-accent underline underline-accent underline-offset-8 cursor-pointer" : "underline-transparent cursor-pointer"} onClick={() => navigate("/products")}>
               Produk
             </li>
-            <li className={active === "contact" ? "text-accent underline underline-accent underline-offset-8" : "underline-transparent"} onClick={() => navigate("/contact")}>
+            <li className={active === "contact" ? "text-accent underline underline-accent underline-offset-8 cursor-pointer" : "underline-transparent cursor-pointer"} onClick={() => navigate("/contact")}>
               Kontak
             </li>
           </ul>

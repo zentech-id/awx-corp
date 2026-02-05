@@ -53,11 +53,6 @@ body {
   background-color: var(--color-primary);
 }
 
-li {
-  cursor: pointer;
-	transition: all 0.5s;
-}
-
 @layer base {
 	* {
 		padding: 0;
