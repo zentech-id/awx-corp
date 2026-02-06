@@ -40,7 +40,7 @@ export default function Contact() {
           <ContactContainer icon={<IoCall color="FFCB7C" size={36}/>} title="Phone/WhatsApp" item="+62 899 9898 7676"/>
           <ContactContainer icon={<IoMail color="FFCB7C" size={36}/>} title="Email" item="awxcorporation@gmail.com"/>
           <ContactContainer icon={<IoLocation color="FFCB7C" size={36}/>} title="Location" item="Jl. Dr. Cipto Nomor 121, Semarang"/>
-          <ContactContainer icon={<IoGlobeOutline color="FFCB7C" size={36}/>} title="Website" item="https://zentech-id.github.io/awx-corporation" hasBorder={false}/>
+          <ContactContainer icon={<IoGlobeOutline color="FFCB7C" size={36}/>} title="Website" item="https://zentech-id.github.io/awx-corp" hasBorder={false}/>
         </div>
       </div>
     </>
